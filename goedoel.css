@@ -110,11 +110,16 @@ body {
 /* Stories Section */
 .stories-section {
     padding: 40px;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center; /* Houdt alles gecentreerd */
 }
 
-.stories-section h2 {
-    margin-bottom: 30px;
+
+
+.story-text{
+    text-align: center;
     color: #1b75bc;
 }
 
@@ -191,6 +196,7 @@ body{
 }
 
 .About{
+    margin-top: 20px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -221,3 +227,6 @@ footer{
 }
    
     
+.banner{
+    margin-top: 40px;
+}
