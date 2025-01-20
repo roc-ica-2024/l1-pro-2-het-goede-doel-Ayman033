@@ -230,3 +230,33 @@ footer{
 .banner{
     margin-top: 40px;
 }
+
+.story {
+    border: 2px solid #ccc;
+    border-spacing: 50px;
+    padding: 10px;
+    border-radius: 0px;
+    width: 350px;
+    margin: 10px 0;
+}
+
+.story img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.story p {
+    margin-bottom:10px;
+}
+
+.AW{
+    justify-content: center;
+    display: flex;
+    align-items: row;
+    border-color: #1b75bc;
+    text-align: left;
+    border-radius: 0px;
+   
+}
