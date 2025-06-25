@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #1b75bc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.header .logo{
+    margin-right: auto;
+    max-height: 50px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    background: transparent;
+    width: 100px;
+    
+
+}
+.header .banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Donate Section */
+.donate-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #172250;
+}
+
+.donate-option {
+    width: 200px;
+    text-align: center;
+}
+
+.donate-option img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.donate-option h3 {
+    margin: 15px 0 10px;
+}
+
+.donate-option a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #82b3d8;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Mission Statement */
+.mission-statement {
+    text-align: center;
+    padding: 20px;
+    background-color: #172250;
+}
+
+/* Impact Section */
+.impact-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.impact-item h4 {
+    font-size: 1.2em;
+    color: #1b75bc;
+    text-align: center;
+}
+
+.impact-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Stories Section */
+.stories-section {
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* Houdt alles gecentreerd */
+}
+
+
+
+.story-text{
+    text-align: center;
+    color: #1b75bc;
+}
+
+.story {
+    display: inline-block;
+    width: 200px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.story img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.story a {
+    display: block;
+    margin-top: 10px;
+    color: #9ebdd4;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color:#2b3b7a;
+    
+    color: rgb(21, 9, 90);
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.donate-option{
+    color:white;
+}
+
+.mission-statement{
+    color:white;
+}
+
+.stories-section{
+    background-color: #172250;
+    color:white;
+}
+
+.navbar{
+    justify-content: right;
+    align-items: right;
+  
+}
+
+body{
+    background-color:#172250;
+   
+    
+    
+    
+}
+
+
+.text{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: larger;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.About{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+
+}
+
+.HHH{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.HHH img{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+footer{
+    color:white;
+}
+
+
+.logo img{
+  width: 200%;
+}
+   
+    
+.banner{
+    margin-top: 40px;
+}
+
+.story {
+    border: 2px solid #ccc;
+    border-spacing: 50px;
+    padding: 10px;
+    border-radius: 0px;
+    width: 350px;
+    margin: 10px 0;
+}
+
+.story img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.story p {
+    margin-bottom:10px;
+}
+
+.AW{
+    justify-content: center;
+    display: flex;
+    align-items: row;
+    border-color: #1b75bc;
+    text-align: left;
+    border-radius: 0px;
+   
+}
